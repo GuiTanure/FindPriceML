@@ -1,0 +1,18 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+chrome_profile/
+data/tokens.json
+data/tokens.tmp
+data/config.tmp
+data/config.json
+data/configold.json
+data/blocked_sellers.json
+data/*.tmp
+
+# Local test/runtime artifacts
+*.log
